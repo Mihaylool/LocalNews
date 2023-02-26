@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "intro";
+    src: url("Intro.ttf");
+}
+
+body {
+    margin: 0;
+    background-color: rgb(245, 252, 255);
+}
+header {    
+    background-color: rgb(245, 252, 255);
+    box-shadow: 0 0 20px black;
+    padding: 10px 20px;
+    font-family: Arial;
+}
+header > a {
+    color: black;
+    border-radius: 5px;
+    padding: 2px 5px;
+    text-decoration: none;
+    float: right;
+}
+header > span {
+    font-family: 'intro';
+    font-size: 20px;
+}
+.sign-up {
+    background-color: rgb(255, 193, 135);
+    margin-right: 5px;
+}
+.sign-in {
+    background-color: rgb(152, 198, 255);
+}
+.description {
+    font-family: "intro";
+    margin: 5px 10px;
+    background-color: rgb(109, 230, 193);
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+.item {
+    margin-top: 50px;
+}
+.item > img {
+    width: 100%;
+}
+.answer {
+    border-radius: 5px;
+    margin: 20px 20px 0;
+    font-family: arial;
+    font-weight: 100;
+    font-size: 20px;
+    transition: .5s;
+}
+.item > button:focus + .answer {
+    font-size: 30px;
+}
+.btn {
+    float: right;
+    margin-right: 2px;
+}
+.minus {
+    margin-right: 10px;
+}
